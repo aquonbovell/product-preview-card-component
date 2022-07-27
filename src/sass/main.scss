@@ -75,6 +75,7 @@ svg {
 }
 
 .card {
+  margin: var(--spacing);
   width: 21.4375em;
   border-radius: calc(var(--spacing) / 2);
   background-color: var(--clr-neutral-100);
@@ -85,7 +86,7 @@ svg {
     
     &::before {
       content: "";
-      background-color: hsla(0, 0%, 0%, 0.2);
+      background-color: hsla(0, 0%, 0%, 0.1);
       position: absolute;
       width: 100%;
       height: 100%;
